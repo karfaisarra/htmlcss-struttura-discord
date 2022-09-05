@@ -21,9 +21,19 @@
     display: flex;
     margin: auto;
     height: 200px;
+    padding-top: 50px;
+    margin-bottom: 30px;
+    
+    
+}
+.container4{
+    width: 80%;
+    height: 300px;
+    background-color: green;
     margin: auto;
-    padding-top: 30px;
-    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
 }
 
 .row{
@@ -33,10 +43,14 @@
 }
 .debug [ class^= "col-"] {
     border: 1px solid;
+    
 }
 header{
     background-color: aqua;
     height: 100px;
+}
+footer{
+
 }
 
 .col-1{
@@ -53,7 +67,7 @@ header{
 .col-4{
     width: calc( (100% / 12) * 4);
     background-color: gray;
-    height: 200px;
+    height: 100px;
 }
 .col-5{
     width: calc( (100% / 12) * 5);
@@ -69,7 +83,7 @@ header{
 .col-8{
     width: calc( (100% / 12) * 8);
     background-color: blue;
-    height: 200px;
+    height: 100px;
 
 }
 .col-9{
@@ -89,5 +103,9 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
     height: 300px;
+    display: flex;
+}
+.menu{
+    background-color: #F6F6F6;
     display: flex;
 }
