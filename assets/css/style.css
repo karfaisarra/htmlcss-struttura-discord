@@ -89,6 +89,7 @@ footer{
     width: calc( (100% / 12) * 6);
     background-color: orange;
     height: 30px;
+    text-align: center;
 }
 .col-7{
     width: calc( (100% / 12) * 7);
