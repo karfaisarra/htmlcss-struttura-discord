@@ -36,11 +36,19 @@
     
 }
 
-.row{
+.row1{
     display: flex;
     flex-wrap: wrap;
     padding-top: 10px;
+    position: relative;
 }
+.row2{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .debug [ class^= "col-"] {
     border: 1px solid;
     
@@ -50,6 +58,7 @@ header{
     height: 100px;
 }
 footer{
+    background-color: #23272A;
 
 }
 
@@ -58,6 +67,8 @@ footer{
 }
 .col-2{
     width: calc( (100% / 12) * 2);
+    background-color: beige;
+    height: 100px;
 }
 .col-3{
     width: calc( (100% / 12) * 3);
@@ -71,6 +82,8 @@ footer{
 }
 .col-5{
     width: calc( (100% / 12) * 5);
+    background-color: red;
+    height: 100px;
 }
 .col-6{
     width: calc( (100% / 12) * 6);
@@ -79,11 +92,11 @@ footer{
 }
 .col-7{
     width: calc( (100% / 12) * 7);
+    background-color: blue;
+    height: 100px;
 }
 .col-8{
     width: calc( (100% / 12) * 8);
-    background-color: blue;
-    height: 100px;
 
 }
 .col-9{
@@ -108,4 +121,14 @@ footer{
 .menu{
     background-color: #F6F6F6;
     display: flex;
+}
+.setting{
+    display: flex;
+    position: relative;
+    padding-bottom: 10px;
+}
+.btn{
+    align-self:flex-start;
+    position: absolute;
+    right: 0;
 }
